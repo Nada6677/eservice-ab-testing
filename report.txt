@@ -1,0 +1,12 @@
+Simulated A/B test | n per arm: 2311
+Estimated duration: 3 days at 1600 eligible users/day
+SRM p-value: 1 (pass=True)
+Completion A: 59.84%
+Completion B: 64.43%
+Absolute effect: 4.59%
+95% CI: [1.79%, 7.38%]
+p-value: 0.0013068
+Error guardrail pass: False
+Duration guardrail pass: True
+Decision: DO NOT LAUNCH: guardrail safety threshold not established
+NOTE: All observations are synthetic; no real-world causal claim is made.

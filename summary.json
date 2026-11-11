@@ -1,0 +1,46 @@
+{
+  "simulation": true,
+  "seed": 20261111,
+  "sample_size_required_per_arm": 2311,
+  "observed_n_a": 2311,
+  "observed_n_b": 2311,
+  "alpha": 0.05,
+  "target_power": 0.8,
+  "baseline_assumption": 0.6,
+  "mde_absolute": 0.04,
+  "daily_eligible_users_assumption": 1600,
+  "estimated_days": 3,
+  "srm_chi2": 0.0,
+  "srm_p_value": 1.0,
+  "srm_pass": true,
+  "sample_size_pass": true,
+  "primary": {
+    "rate_a": 0.5984422327996538,
+    "rate_b": 0.6443098225876244,
+    "absolute_effect": 0.045867589787970564,
+    "relative_lift": 0.07664497469269702,
+    "z": 3.214471604475748,
+    "p_value": 0.001306848397174613,
+    "ci95_lower": 0.017931962697669994,
+    "ci95_upper": 0.07380321687827113
+  },
+  "error_guardrail": {
+    "rate_a": 0.03115534400692341,
+    "rate_b": 0.03115534400692341,
+    "effect": 0.0,
+    "p_value": 1.0,
+    "ci95_upper": 0.010017433443637693,
+    "maximum_acceptable_increase": 0.01,
+    "pass": false
+  },
+  "duration_guardrail": {
+    "mean_a": 190.31824751189959,
+    "mean_b": 155.51559930765904,
+    "effect_seconds": -34.80264820424054,
+    "p_value": 1.184847502065157e-140,
+    "ci95_upper_seconds": -32.19380550281313,
+    "maximum_acceptable_increase_seconds": 10.0,
+    "pass": true
+  },
+  "decision": "DO NOT LAUNCH: guardrail safety threshold not established"
+}
