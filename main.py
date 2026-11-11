@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import norm, chi2, ttest_ind
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / 'data' / 'dataset.csv'
+DATA = ROOT /  'dataset.csv'
 CHARTS = ROOT / 'outputs' / 'charts'
 RESULTS = ROOT / 'outputs' / 'results'
 for directory in (DATA.parent, CHARTS, RESULTS):
