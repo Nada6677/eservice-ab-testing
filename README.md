@@ -2,7 +2,7 @@
 
 **Course:** A/B Testing and Causal Inference (التجارب واختبارات A/B والاستدلال السببي)  
 **Training organization:** SDAIA Academy — https://github.com/SDAIAAcademy  
-**Team:** [Add participant name(s)]
+**Team:** Nada Ali Alghamdi
 
 ## 1. Problem, objective, and decision
 
